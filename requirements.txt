@@ -1,0 +1,8 @@
+streamlit==1.32.0
+anthropic
+openai
+pypdf
+python-docx
+fpdf
+numpy<2.0.0
+packaging
