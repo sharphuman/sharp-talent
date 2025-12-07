@@ -147,7 +147,7 @@ def analyze_interview(transcript, candidate, role):
     """
     try:
         msg = anthropic_client.messages.create(
-            model="claude-3-5-sonnet-20240620", max_tokens=2500, temperature=0.2, 
+            model="claude-sonnet-4-20250514", max_tokens=2500, temperature=0.2, 
             system=system_prompt, messages=[{"role": "user", "content": transcript[:50000]}]
         )
         track_cost(0.02) 
